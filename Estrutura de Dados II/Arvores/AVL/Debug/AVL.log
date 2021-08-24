@@ -1,0 +1,3 @@
+﻿  OrigemAVL.cpp
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Estrutura de Dados II\Arvores\AVL\OrigemAVL.cpp(134,13): warning C4326: tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+  AVL.vcxproj -> C:\Users\lucas\Google Drive\UNIFENAS-CDC\Estrutura de Dados II\Arvores\Debug\AVL.exe

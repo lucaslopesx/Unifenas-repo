@@ -1,0 +1,13 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\bin\Debug\netcoreapp3.1\Projeto1.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\bin\Debug\netcoreapp3.1\Projeto1.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\bin\Debug\netcoreapp3.1\Projeto1.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\bin\Debug\netcoreapp3.1\Projeto1.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\bin\Debug\netcoreapp3.1\Projeto1.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\bin\Debug\netcoreapp3.1\Projeto1.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\obj\Debug\netcoreapp3.1\Projeto1.csprojAssemblyReference.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\obj\Debug\netcoreapp3.1\Projeto1.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\obj\Debug\netcoreapp3.1\Projeto1.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\obj\Debug\netcoreapp3.1\Projeto1.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\obj\Debug\netcoreapp3.1\Projeto1.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\obj\Debug\netcoreapp3.1\Projeto1.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula03POO\Aula03\Projeto1\obj\Debug\netcoreapp3.1\Projeto1.genruntimeconfig.cache

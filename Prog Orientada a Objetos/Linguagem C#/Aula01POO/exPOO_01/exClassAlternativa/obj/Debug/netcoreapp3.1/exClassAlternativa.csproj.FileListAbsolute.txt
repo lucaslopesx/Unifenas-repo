@@ -1,0 +1,13 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\bin\Debug\netcoreapp3.1\exClassAlternativa.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\bin\Debug\netcoreapp3.1\exClassAlternativa.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\bin\Debug\netcoreapp3.1\exClassAlternativa.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\bin\Debug\netcoreapp3.1\exClassAlternativa.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\bin\Debug\netcoreapp3.1\exClassAlternativa.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\bin\Debug\netcoreapp3.1\exClassAlternativa.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\obj\Debug\netcoreapp3.1\exClassAlternativa.csprojAssemblyReference.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\obj\Debug\netcoreapp3.1\exClassAlternativa.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\obj\Debug\netcoreapp3.1\exClassAlternativa.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\obj\Debug\netcoreapp3.1\exClassAlternativa.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\obj\Debug\netcoreapp3.1\exClassAlternativa.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\obj\Debug\netcoreapp3.1\exClassAlternativa.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula01POO\exPOO_01\exClassAlternativa\obj\Debug\netcoreapp3.1\exClassAlternativa.genruntimeconfig.cache

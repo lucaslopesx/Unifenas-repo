@@ -1,0 +1,13 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\bin\Debug\netcoreapp3.1\ProjetoIntroCSharp.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\bin\Debug\netcoreapp3.1\ProjetoIntroCSharp.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\bin\Debug\netcoreapp3.1\ProjetoIntroCSharp.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\bin\Debug\netcoreapp3.1\ProjetoIntroCSharp.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\bin\Debug\netcoreapp3.1\ProjetoIntroCSharp.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\bin\Debug\netcoreapp3.1\ProjetoIntroCSharp.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\obj\Debug\netcoreapp3.1\ProjetoIntroCSharp.csprojAssemblyReference.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\obj\Debug\netcoreapp3.1\ProjetoIntroCSharp.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\obj\Debug\netcoreapp3.1\ProjetoIntroCSharp.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\obj\Debug\netcoreapp3.1\ProjetoIntroCSharp.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\obj\Debug\netcoreapp3.1\ProjetoIntroCSharp.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\obj\Debug\netcoreapp3.1\ProjetoIntroCSharp.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ProjetoIntroCSharp\obj\Debug\netcoreapp3.1\ProjetoIntroCSharp.genruntimeconfig.cache

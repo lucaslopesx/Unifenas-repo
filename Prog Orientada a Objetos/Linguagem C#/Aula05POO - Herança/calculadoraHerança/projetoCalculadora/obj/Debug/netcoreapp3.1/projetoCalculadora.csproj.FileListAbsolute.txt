@@ -1,0 +1,13 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\bin\Debug\netcoreapp3.1\projetoCalculadora.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\bin\Debug\netcoreapp3.1\projetoCalculadora.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\bin\Debug\netcoreapp3.1\projetoCalculadora.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\bin\Debug\netcoreapp3.1\projetoCalculadora.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\bin\Debug\netcoreapp3.1\projetoCalculadora.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\bin\Debug\netcoreapp3.1\projetoCalculadora.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\obj\Debug\netcoreapp3.1\projetoCalculadora.csprojAssemblyReference.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\obj\Debug\netcoreapp3.1\projetoCalculadora.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\obj\Debug\netcoreapp3.1\projetoCalculadora.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\obj\Debug\netcoreapp3.1\projetoCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\obj\Debug\netcoreapp3.1\projetoCalculadora.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\obj\Debug\netcoreapp3.1\projetoCalculadora.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\calculadoraHerança\projetoCalculadora\obj\Debug\netcoreapp3.1\projetoCalculadora.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\bin\Debug\netcoreapp3.1\ExemploMatriz.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\bin\Debug\netcoreapp3.1\ExemploMatriz.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\bin\Debug\netcoreapp3.1\ExemploMatriz.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\bin\Debug\netcoreapp3.1\ExemploMatriz.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\bin\Debug\netcoreapp3.1\ExemploMatriz.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\bin\Debug\netcoreapp3.1\ExemploMatriz.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\obj\Debug\netcoreapp3.1\ExemploMatriz.csprojAssemblyReference.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\obj\Debug\netcoreapp3.1\ExemploMatriz.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\obj\Debug\netcoreapp3.1\ExemploMatriz.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\obj\Debug\netcoreapp3.1\ExemploMatriz.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\obj\Debug\netcoreapp3.1\ExemploMatriz.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\obj\Debug\netcoreapp3.1\ExemploMatriz.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Vetores\Vetores\ExemploMatriz\obj\Debug\netcoreapp3.1\ExemploMatriz.genruntimeconfig.cache

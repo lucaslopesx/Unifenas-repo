@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1_hospital", "Ex1_hospital\Ex1_hospital.csproj", "{B44A0EE9-65A4-498A-BD16-884911BA75A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex2_escola", "Ex2_escola\Ex2_escola.csproj", "{189C6142-03EA-4935-A49A-92DACC6FB253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B44A0EE9-65A4-498A-BD16-884911BA75A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44A0EE9-65A4-498A-BD16-884911BA75A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44A0EE9-65A4-498A-BD16-884911BA75A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44A0EE9-65A4-498A-BD16-884911BA75A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189C6142-03EA-4935-A49A-92DACC6FB253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189C6142-03EA-4935-A49A-92DACC6FB253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189C6142-03EA-4935-A49A-92DACC6FB253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189C6142-03EA-4935-A49A-92DACC6FB253}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68787245-34A2-4ECF-B708-B41E26F75FBB}
+	EndGlobalSection
+EndGlobal

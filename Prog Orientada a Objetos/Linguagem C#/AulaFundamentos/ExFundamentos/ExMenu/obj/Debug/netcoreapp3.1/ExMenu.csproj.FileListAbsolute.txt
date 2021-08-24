@@ -1,0 +1,13 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\bin\Debug\netcoreapp3.1\ExMenu.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\bin\Debug\netcoreapp3.1\ExMenu.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\bin\Debug\netcoreapp3.1\ExMenu.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\bin\Debug\netcoreapp3.1\ExMenu.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\bin\Debug\netcoreapp3.1\ExMenu.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\bin\Debug\netcoreapp3.1\ExMenu.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\obj\Debug\netcoreapp3.1\ExMenu.csprojAssemblyReference.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\obj\Debug\netcoreapp3.1\ExMenu.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\obj\Debug\netcoreapp3.1\ExMenu.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\obj\Debug\netcoreapp3.1\ExMenu.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\obj\Debug\netcoreapp3.1\ExMenu.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\obj\Debug\netcoreapp3.1\ExMenu.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\AulaFundamentos\ExFundamentos\ExMenu\obj\Debug\netcoreapp3.1\ExMenu.genruntimeconfig.cache

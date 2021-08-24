@@ -1,0 +1,16 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\Ex2_escola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\Ex2_escola.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\Ex2_escola.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\Ex2_escola.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\bin\Debug\net5.0\Ex2_escola.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\bin\Debug\net5.0\Ex2_escola.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\bin\Debug\net5.0\Ex2_escola.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\bin\Debug\net5.0\Ex2_escola.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\bin\Debug\net5.0\Ex2_escola.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\bin\Debug\net5.0\ref\Ex2_escola.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\bin\Debug\net5.0\Ex2_escola.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\Ex2_escola.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\ref\Ex2_escola.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\Ex2_escola.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\Ex2_escola.genruntimeconfig.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex2_escola\obj\Debug\net5.0\Ex2_escola.csprojAssemblyReference.cache

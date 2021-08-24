@@ -1,0 +1,13 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\obj\Debug\netcoreapp3.1\exFuncionario.csprojAssemblyReference.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\obj\Debug\netcoreapp3.1\exFuncionario.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\obj\Debug\netcoreapp3.1\exFuncionario.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\obj\Debug\netcoreapp3.1\exFuncionario.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\bin\Debug\netcoreapp3.1\exFuncionario.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\bin\Debug\netcoreapp3.1\exFuncionario.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\bin\Debug\netcoreapp3.1\exFuncionario.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\bin\Debug\netcoreapp3.1\exFuncionario.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\bin\Debug\netcoreapp3.1\exFuncionario.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\bin\Debug\netcoreapp3.1\exFuncionario.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\obj\Debug\netcoreapp3.1\exFuncionario.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\obj\Debug\netcoreapp3.1\exFuncionario.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Fundamentos parte 2\exFundamentosPt2\exFuncionario\obj\Debug\netcoreapp3.1\exFuncionario.genruntimeconfig.cache

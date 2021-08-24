@@ -1,0 +1,16 @@
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\bin\Debug\net5.0\Ex1_hospital.exe
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\bin\Debug\net5.0\Ex1_hospital.deps.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\bin\Debug\net5.0\Ex1_hospital.runtimeconfig.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\bin\Debug\net5.0\Ex1_hospital.runtimeconfig.dev.json
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\bin\Debug\net5.0\Ex1_hospital.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\bin\Debug\net5.0\ref\Ex1_hospital.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\bin\Debug\net5.0\Ex1_hospital.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\Ex1_hospital.csprojAssemblyReference.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\Ex1_hospital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\Ex1_hospital.AssemblyInfoInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\Ex1_hospital.AssemblyInfo.cs
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\Ex1_hospital.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\Ex1_hospital.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\ref\Ex1_hospital.dll
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\Ex1_hospital.pdb
+C:\Users\lucas\Google Drive\UNIFENAS-CDC\Prog Orientada a Objetos\Linguagem C#\Aula05POO - Herança\ExerciciosAula05\Ex1_hospital\obj\Debug\net5.0\Ex1_hospital.genruntimeconfig.cache
