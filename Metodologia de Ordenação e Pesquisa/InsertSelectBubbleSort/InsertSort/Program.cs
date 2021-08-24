@@ -38,7 +38,7 @@ namespace InsertSort
         }
         static void Main(string[] args)
         {
-            int[] vet = new int[5] { 3, 1, 0, 2, 4, };
+            int[] vet = new int[5] { 3, 1, 0, 2, 4 };
 
             InsertSort(vet);
 
