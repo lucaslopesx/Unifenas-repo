@@ -7,7 +7,7 @@ namespace SelectSort
         public static void SelectSort(int[] vet)
         {
             int tam = vet.Length;
-            for (int i = 0; i < tam; i++)
+            for (int i = 0; i < tam - 1; i++)
             {
                 int min = i;
                 for (int j = i + 1; j < tam; j++)
@@ -23,7 +23,6 @@ namespace SelectSort
                     vet[i] = vet[min];
                     vet[min] = aux;
                 }
-                
             }
         }
         public static void SelectSortDec(int[] vet)
