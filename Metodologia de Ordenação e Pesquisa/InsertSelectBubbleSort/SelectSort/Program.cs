@@ -29,6 +29,7 @@ namespace SelectSort
         public static void SelectSortDec(int[] vet)
         {
             int tam = vet.Length;
+
             for (int i = 0; i < tam; i++)
             {
                 int max = i;
@@ -44,6 +45,7 @@ namespace SelectSort
                     int aux = vet[i];
                     vet[i] = vet[max];
                     vet[max] = aux;
+                    
                 }
             }
         }
@@ -59,6 +61,7 @@ namespace SelectSort
             }
 
             SelectSortDec(vet);
+
             Console.WriteLine("");
 
             for (int i = 0; i < vet.Length; i++)

@@ -56,6 +56,7 @@ namespace BubbleSort
             {
                 Console.Write(vet[i] + " ");
             }
+
         }
     }
 }
