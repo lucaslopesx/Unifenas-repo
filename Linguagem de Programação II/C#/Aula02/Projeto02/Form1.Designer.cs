@@ -42,6 +42,11 @@ namespace Projeto02
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
+            this.listBox1.Items.AddRange(new object[] {
+            "Ciência da Computação",
+            "Odontologia",
+            "Administração",
+            "Enfermagem"});
             this.listBox1.Location = new System.Drawing.Point(40, 156);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 94);

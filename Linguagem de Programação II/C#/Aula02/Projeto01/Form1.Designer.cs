@@ -155,7 +155,7 @@ namespace Projeto01
             this.panel1.Controls.Add(this.lblAlterar);
             this.panel1.Controls.Add(this.lblIncluir);
             this.panel1.Controls.Add(this.lblTipo);
-            this.panel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Location = new System.Drawing.Point(505, 52);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(251, 225);
