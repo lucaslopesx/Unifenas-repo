@@ -30,8 +30,7 @@ namespace Projeto02
             if (listBox1.Items.Contains(txtCurso.Text) == false)
                 listBox1.Items.Add(txtCurso.Text);
             else
-                MessageBox.Show("Cursoo já existente!");
-            
+                MessageBox.Show("Curso já existente!");
         }
 
         private void cmdExcluir_Click(object sender, EventArgs e)

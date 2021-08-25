@@ -44,8 +44,8 @@ namespace Projeto01
             this.lblIncluir = new System.Windows.Forms.Label();
             this.lblTipo = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnMostra = new System.Windows.Forms.Button();
             this.lblMostra = new System.Windows.Forms.Label();
+            this.btnMostra = new System.Windows.Forms.Button();
             this.gbTipo.SuspendLayout();
             this.gbPermissao.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -155,6 +155,7 @@ namespace Projeto01
             this.panel1.Controls.Add(this.lblAlterar);
             this.panel1.Controls.Add(this.lblIncluir);
             this.panel1.Controls.Add(this.lblTipo);
+            this.panel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Location = new System.Drawing.Point(505, 52);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(251, 225);
@@ -201,6 +202,15 @@ namespace Projeto01
             this.panel2.Size = new System.Drawing.Size(665, 123);
             this.panel2.TabIndex = 5;
             // 
+            // lblMostra
+            // 
+            this.lblMostra.AutoSize = true;
+            this.lblMostra.Location = new System.Drawing.Point(112, 44);
+            this.lblMostra.Name = "lblMostra";
+            this.lblMostra.Size = new System.Drawing.Size(38, 15);
+            this.lblMostra.TabIndex = 1;
+            this.lblMostra.Text = "label2";
+            // 
             // btnMostra
             // 
             this.btnMostra.Location = new System.Drawing.Point(4, 4);
@@ -210,15 +220,6 @@ namespace Projeto01
             this.btnMostra.Text = "Mostra";
             this.btnMostra.UseVisualStyleBackColor = true;
             this.btnMostra.Click += new System.EventHandler(this.btnMostra_Click);
-            // 
-            // lblMostra
-            // 
-            this.lblMostra.AutoSize = true;
-            this.lblMostra.Location = new System.Drawing.Point(112, 44);
-            this.lblMostra.Name = "lblMostra";
-            this.lblMostra.Size = new System.Drawing.Size(38, 15);
-            this.lblMostra.TabIndex = 1;
-            this.lblMostra.Text = "label2";
             // 
             // Form1
             // 
