@@ -42,9 +42,14 @@ namespace Projeto02
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
+            this.listBox1.Items.AddRange(new object[] {
+            "Ciência da Computação",
+            "Odontologia",
+            "Enfermagem",
+            "Administração"});
             this.listBox1.Location = new System.Drawing.Point(40, 156);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 94);
+            this.listBox1.Size = new System.Drawing.Size(136, 94);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -69,9 +74,8 @@ namespace Projeto02
             this.lblSelecionado.AutoSize = true;
             this.lblSelecionado.Location = new System.Drawing.Point(40, 305);
             this.lblSelecionado.Name = "lblSelecionado";
-            this.lblSelecionado.Size = new System.Drawing.Size(19, 15);
+            this.lblSelecionado.Size = new System.Drawing.Size(0, 15);
             this.lblSelecionado.TabIndex = 3;
-            this.lblSelecionado.Text = "aa";
             // 
             // cmdIncluir
             // 
