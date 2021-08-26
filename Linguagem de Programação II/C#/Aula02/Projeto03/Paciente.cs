@@ -34,9 +34,9 @@ namespace Projeto03
         {
             string msg;
             msg = "Nome: " + Nome + "   Vacinas: ";
-            msg += Febreamarela == true ? "Febre Amarela" : "";
-            msg += Poliomelite == true ? "Poliomelite" : "";
-            msg += Catapora == true ? "Catapora" : "";
+            msg += Febreamarela == true ? "Febre Amarela " : "";
+            msg += Poliomelite == true ? "Poliomelite " : "";
+            msg += Catapora == true ? "Catapora " : "";
             return msg;
         }
     }
