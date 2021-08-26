@@ -74,9 +74,8 @@ namespace Projeto02
             this.lblSelecionado.AutoSize = true;
             this.lblSelecionado.Location = new System.Drawing.Point(40, 305);
             this.lblSelecionado.Name = "lblSelecionado";
-            this.lblSelecionado.Size = new System.Drawing.Size(19, 15);
+            this.lblSelecionado.Size = new System.Drawing.Size(0, 15);
             this.lblSelecionado.TabIndex = 3;
-            this.lblSelecionado.Text = "aa";
             // 
             // cmdIncluir
             // 
