@@ -47,5 +47,35 @@ namespace Projeto01_MatrizForms
 			}
 			lblSoma.Text = soma.ToString();
 		}
+
+		private void lblSoma_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void label2_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void label1_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void dgvMatriz_CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
+
+		}
+
+		private void nudColunas_ValueChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void nudLinhas_ValueChanged(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

@@ -48,6 +48,7 @@ namespace Projeto01_MatrizForms
 			this.nudLinhas.Name = "nudLinhas";
 			this.nudLinhas.Size = new System.Drawing.Size(52, 20);
 			this.nudLinhas.TabIndex = 0;
+			this.nudLinhas.ValueChanged += new System.EventHandler(this.nudLinhas_ValueChanged);
 			// 
 			// nudColunas
 			// 
@@ -55,6 +56,7 @@ namespace Projeto01_MatrizForms
 			this.nudColunas.Name = "nudColunas";
 			this.nudColunas.Size = new System.Drawing.Size(52, 20);
 			this.nudColunas.TabIndex = 1;
+			this.nudColunas.ValueChanged += new System.EventHandler(this.nudColunas_ValueChanged);
 			// 
 			// dgvMatriz
 			// 
@@ -69,6 +71,7 @@ namespace Projeto01_MatrizForms
 			this.dgvMatriz.RowHeadersVisible = false;
 			this.dgvMatriz.Size = new System.Drawing.Size(332, 193);
 			this.dgvMatriz.TabIndex = 2;
+			this.dgvMatriz.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMatriz_CellContentClick);
 			// 
 			// label1
 			// 
@@ -78,6 +81,7 @@ namespace Projeto01_MatrizForms
 			this.label1.Size = new System.Drawing.Size(41, 13);
 			this.label1.TabIndex = 3;
 			this.label1.Text = "Linhas:";
+			this.label1.Click += new System.EventHandler(this.label1_Click);
 			// 
 			// label2
 			// 
@@ -87,6 +91,7 @@ namespace Projeto01_MatrizForms
 			this.label2.Size = new System.Drawing.Size(48, 13);
 			this.label2.TabIndex = 4;
 			this.label2.Text = "Colunas:";
+			this.label2.Click += new System.EventHandler(this.label2_Click);
 			// 
 			// cmdMatriz
 			// 
@@ -115,6 +120,7 @@ namespace Projeto01_MatrizForms
 			this.lblSoma.Name = "lblSoma";
 			this.lblSoma.Size = new System.Drawing.Size(0, 13);
 			this.lblSoma.TabIndex = 7;
+			this.lblSoma.Click += new System.EventHandler(this.lblSoma_Click);
 			// 
 			// Form1
 			// 

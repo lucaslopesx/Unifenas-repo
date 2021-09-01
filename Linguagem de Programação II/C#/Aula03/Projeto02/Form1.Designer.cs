@@ -33,13 +33,16 @@ namespace Projeto02
 			this.label2 = new System.Windows.Forms.Label();
 			this.dgvVetor = new System.Windows.Forms.DataGridView();
 			this.nudColunas = new System.Windows.Forms.NumericUpDown();
+			this.cmdOrdenar = new System.Windows.Forms.Button();
+			this.dgvOrdenado = new System.Windows.Forms.DataGridView();
 			((System.ComponentModel.ISupportInitialize)(this.dgvVetor)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.nudColunas)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.dgvOrdenado)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// cmdVetor
 			// 
-			this.cmdVetor.Location = new System.Drawing.Point(46, 71);
+			this.cmdVetor.Location = new System.Drawing.Point(34, 74);
 			this.cmdVetor.Name = "cmdVetor";
 			this.cmdVetor.Size = new System.Drawing.Size(75, 23);
 			this.cmdVetor.TabIndex = 13;
@@ -64,10 +67,10 @@ namespace Projeto02
 			this.dgvVetor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.dgvVetor.ColumnHeadersVisible = false;
 			this.dgvVetor.Cursor = System.Windows.Forms.Cursors.Default;
-			this.dgvVetor.Location = new System.Drawing.Point(134, 26);
+			this.dgvVetor.Location = new System.Drawing.Point(146, 30);
 			this.dgvVetor.Name = "dgvVetor";
 			this.dgvVetor.RowHeadersVisible = false;
-			this.dgvVetor.Size = new System.Drawing.Size(322, 39);
+			this.dgvVetor.Size = new System.Drawing.Size(322, 30);
 			this.dgvVetor.TabIndex = 10;
 			// 
 			// nudColunas
@@ -77,11 +80,37 @@ namespace Projeto02
 			this.nudColunas.Size = new System.Drawing.Size(52, 20);
 			this.nudColunas.TabIndex = 9;
 			// 
+			// cmdOrdenar
+			// 
+			this.cmdOrdenar.Location = new System.Drawing.Point(34, 114);
+			this.cmdOrdenar.Name = "cmdOrdenar";
+			this.cmdOrdenar.Size = new System.Drawing.Size(75, 23);
+			this.cmdOrdenar.TabIndex = 14;
+			this.cmdOrdenar.Text = "Ordenar";
+			this.cmdOrdenar.UseVisualStyleBackColor = true;
+			this.cmdOrdenar.Click += new System.EventHandler(this.cmdOrdenar_Click);
+			// 
+			// dgvOrdenado
+			// 
+			this.dgvOrdenado.AllowUserToAddRows = false;
+			this.dgvOrdenado.AllowUserToDeleteRows = false;
+			this.dgvOrdenado.AllowUserToResizeColumns = false;
+			this.dgvOrdenado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			this.dgvOrdenado.ColumnHeadersVisible = false;
+			this.dgvOrdenado.Cursor = System.Windows.Forms.Cursors.Default;
+			this.dgvOrdenado.Location = new System.Drawing.Point(146, 114);
+			this.dgvOrdenado.Name = "dgvOrdenado";
+			this.dgvOrdenado.RowHeadersVisible = false;
+			this.dgvOrdenado.Size = new System.Drawing.Size(322, 30);
+			this.dgvOrdenado.TabIndex = 15;
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(477, 263);
+			this.Controls.Add(this.dgvOrdenado);
+			this.Controls.Add(this.cmdOrdenar);
 			this.Controls.Add(this.cmdVetor);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.dgvVetor);
@@ -90,6 +119,7 @@ namespace Projeto02
 			this.Text = "Form1";
 			((System.ComponentModel.ISupportInitialize)(this.dgvVetor)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.nudColunas)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.dgvOrdenado)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -101,6 +131,8 @@ namespace Projeto02
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.DataGridView dgvVetor;
 		private System.Windows.Forms.NumericUpDown nudColunas;
+		private System.Windows.Forms.Button cmdOrdenar;
+		private System.Windows.Forms.DataGridView dgvOrdenado;
 	}
 }
 
