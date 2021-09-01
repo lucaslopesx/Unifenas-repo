@@ -24,7 +24,7 @@ namespace Projeto02
 				}
 				while (vet[j] > pivo)
 				{
-					i--;
+					j--;
 				}
 				if (i <= j)
 				{

@@ -33,8 +33,8 @@ namespace Projeto02
 		private void cmdOrdenar_Click(object sender, EventArgs e)
 		{
 			int[] vet = new int[(int)nudColunas.Value];
-			int aux = 0;
-			for (int i = 0; i < nudColunas.Value; i++)
+			
+			for (int i = 0; i < (int)nudColunas.Value; i++)
 			{
 				vet[i] = Convert.ToInt32(dgvVetor.Rows[0].Cells[i].Value);
 			}
