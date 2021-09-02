@@ -26,7 +26,7 @@ namespace Projeto03
 			{
 				pictureBox1.Image = Properties.Resources.Anotação_2021_09_01_214911;
 			}
-			else if (di.Date.ToString("dd/MM/yyyy")== "22/08/2021")
+			else if (di.Date.ToString("dd/MM/yyyy")== "22/09/2021")
 			{
 				pictureBox1.Image = Properties.Resources._1535482050_UmaFlex_Capa_Primavera;
 			}
