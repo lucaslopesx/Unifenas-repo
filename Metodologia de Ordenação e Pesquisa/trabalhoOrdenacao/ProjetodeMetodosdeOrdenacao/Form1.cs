@@ -63,10 +63,38 @@ namespace ProjetodeMetodosdeOrdenacao
                 lblTroca.Text = M.T1.ToString();
                 lblComp.Text = M.C1.ToString();
             }
+            dgvOrdenado.RowCount = 1;
+            dgvOrdenado.ColumnCount = (int)nudColunas.Value;
+            for (int i = 0; i < nudColunas.Value; i++)
+            {
+                dgvOrdenado.Columns[i].Width = 30;
+                dgvOrdenado.Rows[0].Height = 30;
+                dgvOrdenado.Rows[0].Cells[i].Value = 0;
+            }
             for (int j = 0; j < (int)nudColunas.Value; j++)
             {
-                dgvVetor.Rows[0].Cells[j].Value = vet[j];
+                dgvOrdenado.Rows[0].Cells[j].Value = vet[j];
             }
+            M.C1 = 0;
+            M.C2 = 0;
+            M.C3 = 0;
+            M.C4 = 0;
+            M.T1 = 0;
+            M.T2 = 0;
+            M.T3 = 0;
+            M.T4 = 0;
+        }
+
+        private void cmdLimpar_Click(object sender, EventArgs e)
+        {
+            dgvOrdenado.Rows.Clear();
+            dgvOrdenado.Refresh();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dgvOrdenado.Rows.Clear();
+            dgvOrdenado.Refresh();
         }
     }
 }

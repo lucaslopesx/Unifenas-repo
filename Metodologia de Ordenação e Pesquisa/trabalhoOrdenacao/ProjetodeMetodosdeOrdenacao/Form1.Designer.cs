@@ -39,6 +39,7 @@ namespace ProjetodeMetodosdeOrdenacao
             this.dgvVetor = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dgvOrdenado = new System.Windows.Forms.DataGridView();
+            this.cmdLimpar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudColunas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVetor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenado)).BeginInit();
@@ -48,7 +49,7 @@ namespace ProjetodeMetodosdeOrdenacao
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(80, 113);
+            this.label1.Location = new System.Drawing.Point(80, 96);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 25);
             this.label1.TabIndex = 0;
@@ -58,7 +59,7 @@ namespace ProjetodeMetodosdeOrdenacao
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(18, 138);
+            this.label2.Location = new System.Drawing.Point(18, 121);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(131, 25);
             this.label2.TabIndex = 1;
@@ -68,7 +69,7 @@ namespace ProjetodeMetodosdeOrdenacao
             // 
             this.lblTroca.AutoSize = true;
             this.lblTroca.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTroca.Location = new System.Drawing.Point(155, 119);
+            this.lblTroca.Location = new System.Drawing.Point(155, 96);
             this.lblTroca.Name = "lblTroca";
             this.lblTroca.Size = new System.Drawing.Size(0, 25);
             this.lblTroca.TabIndex = 2;
@@ -77,7 +78,7 @@ namespace ProjetodeMetodosdeOrdenacao
             // 
             this.lblComp.AutoSize = true;
             this.lblComp.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblComp.Location = new System.Drawing.Point(155, 138);
+            this.lblComp.Location = new System.Drawing.Point(155, 121);
             this.lblComp.Name = "lblComp";
             this.lblComp.Size = new System.Drawing.Size(0, 25);
             this.lblComp.TabIndex = 3;
@@ -116,7 +117,7 @@ namespace ProjetodeMetodosdeOrdenacao
             this.dgvVetor.AllowUserToResizeColumns = false;
             this.dgvVetor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVetor.ColumnHeadersVisible = false;
-            this.dgvVetor.Location = new System.Drawing.Point(13, 54);
+            this.dgvVetor.Location = new System.Drawing.Point(18, 54);
             this.dgvVetor.Name = "dgvVetor";
             this.dgvVetor.RowHeadersVisible = false;
             this.dgvVetor.RowTemplate.Height = 25;
@@ -135,6 +136,7 @@ namespace ProjetodeMetodosdeOrdenacao
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 23);
             this.comboBox1.TabIndex = 8;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // dgvOrdenado
             // 
@@ -143,18 +145,29 @@ namespace ProjetodeMetodosdeOrdenacao
             this.dgvOrdenado.AllowUserToResizeColumns = false;
             this.dgvOrdenado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvOrdenado.ColumnHeadersVisible = false;
-            this.dgvOrdenado.Location = new System.Drawing.Point(12, 187);
+            this.dgvOrdenado.Location = new System.Drawing.Point(18, 165);
             this.dgvOrdenado.Name = "dgvOrdenado";
             this.dgvOrdenado.RowHeadersVisible = false;
             this.dgvOrdenado.RowTemplate.Height = 25;
             this.dgvOrdenado.Size = new System.Drawing.Size(561, 30);
             this.dgvOrdenado.TabIndex = 9;
             // 
+            // cmdLimpar
+            // 
+            this.cmdLimpar.Location = new System.Drawing.Point(499, 201);
+            this.cmdLimpar.Name = "cmdLimpar";
+            this.cmdLimpar.Size = new System.Drawing.Size(75, 23);
+            this.cmdLimpar.TabIndex = 10;
+            this.cmdLimpar.Text = "Limpar";
+            this.cmdLimpar.UseVisualStyleBackColor = true;
+            this.cmdLimpar.Click += new System.EventHandler(this.cmdLimpar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 239);
+            this.Controls.Add(this.cmdLimpar);
             this.Controls.Add(this.dgvOrdenado);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dgvVetor);
@@ -187,6 +200,7 @@ namespace ProjetodeMetodosdeOrdenacao
         private System.Windows.Forms.DataGridView dgvVetor;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DataGridView dgvOrdenado;
+        private System.Windows.Forms.Button cmdLimpar;
     }
 }
 

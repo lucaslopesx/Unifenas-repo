@@ -49,7 +49,7 @@ namespace ProjetodeMetodosdeOrdenacao
 					j--;
 				}
 			}
-			if (j > pivo)
+			if (j > inicio)
 			{
 				QuickSort(vet, inicio, j);
 			}
@@ -117,5 +117,6 @@ namespace ProjetodeMetodosdeOrdenacao
 				}
 			}
 		}
+		
 	}
 }
