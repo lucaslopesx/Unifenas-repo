@@ -87,7 +87,6 @@ namespace ProjetodeMetodosdeOrdenacao
 				C3++;
 				while (j >= 0 && vet[j] > aux)
 				{
-					C3++;
 					T3++;
 					vet[j + 1] = vet[j];
 					j--;
