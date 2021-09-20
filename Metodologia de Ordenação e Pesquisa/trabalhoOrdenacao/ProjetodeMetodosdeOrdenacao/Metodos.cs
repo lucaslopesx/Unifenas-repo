@@ -30,13 +30,15 @@ namespace ProjetodeMetodosdeOrdenacao
 
 			while (i<=j)
 			{
-				C1++;
+				C1++; 
 				while (vet[i] < pivo)
 				{
+					
 					i++;
 				}
 				while (vet[j] > pivo)
 				{
+					
 					j--;
 				}
 				if (i <= j)
@@ -84,9 +86,9 @@ namespace ProjetodeMetodosdeOrdenacao
 			{
 				aux = vet[i];
 				j = i - 1;
-				C3++;
 				while (j >= 0 && vet[j] > aux)
 				{
+					C3++;
 					T3++;
 					vet[j + 1] = vet[j];
 					j--;
