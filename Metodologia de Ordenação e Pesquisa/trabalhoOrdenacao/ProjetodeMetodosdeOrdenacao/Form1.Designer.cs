@@ -110,6 +110,7 @@ namespace ProjetodeMetodosdeOrdenacao
             this.nudColunas.Name = "nudColunas";
             this.nudColunas.Size = new System.Drawing.Size(55, 23);
             this.nudColunas.TabIndex = 6;
+            this.nudColunas.ValueChanged += new System.EventHandler(this.cmdVetor_Click);
             // 
             // dgvVetor
             // 

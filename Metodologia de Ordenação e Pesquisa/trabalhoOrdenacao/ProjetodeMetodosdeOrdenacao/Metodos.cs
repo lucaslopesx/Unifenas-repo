@@ -11,29 +11,36 @@ namespace ProjetodeMetodosdeOrdenacao
 		int t1;
 		int c1;
 
-        public int T1 { get => t1; set => t1 = value; }
-        public int C1 { get => c1; set => c1 = value; }
+		public int T1 { get => t1; set => t1 = value; }
+		public int C1 { get => c1; set => c1 = value; }
 
-        public void QuickSort(int[] vet, int inicio, int fim)
+		public void QuickSort(int[] vet, int inicio, int fim)
 		{
-			int aux, pivo, i, j, pivoAux;
-			pivoAux = (inicio + fim) / 2;
-			pivo = vet[pivoAux];
+			int aux, pivo, i, j;
+			pivo = vet[(inicio + fim) / 2];
 			i = inicio;
 			j = fim;
 
-			while (i<=j)
+			while (i <= j)
 			{
-				C1++; 
 				while (vet[i] < pivo)
 				{
-					
 					i++;
+					C1++;
 				}
+				if (vet[i] > pivo) //Possibilidade do pivo ser maior, tem que contar troca do mesmo jeito
+				{
+					C1++;
+				}
+
 				while (vet[j] > pivo)
 				{
-					
 					j--;
+					C1++;
+				}
+				if (vet[j] < pivo) //Possibilidade do pivo ser menor, tem que contar troca do mesm jeito
+				{
+					C1++;
 				}
 				if (i <= j)
 				{
@@ -57,62 +64,76 @@ namespace ProjetodeMetodosdeOrdenacao
 		public void BubbleSort(int[] vet)
 		{
 			int tam = vet.Length;
-			for (int ultimo = tam - 1; ultimo > 0; ultimo--)
+			int i, k, nv;
+			nv = tam;
+			while (nv > 1)
 			{
-				for (int i = 0; i < ultimo; i++)
+				i = 0;
+				while (i < (nv - 1))
 				{
 					C1++;
 					if (vet[i] > vet[i + 1])
 					{
-                        T1++;
-						int aux = vet[i];
+						T1++;
+						k = vet[i];
 						vet[i] = vet[i + 1];
-						vet[i + 1] = aux;
+						vet[i + 1] = k;
 					}
+					i++;
 				}
+				nv--;
 			}
 		}
 		public void InsertSort(int[] vet)
 		{
 			int tam = vet.Length;
-			int aux, j;
-			for (int i = 0; i < tam; i++)
+			int i, j, k;
+			i = 1;
+			while (i < tam)
 			{
-				aux = vet[i];
 				j = i - 1;
-				while (j >= 0 && vet[j] > aux)
+				k = vet[i];
+				while (j >= 0 && vet[j] > k)
 				{
-					C1++;
 					T1++;
+					C1++;
 					vet[j + 1] = vet[j];
+					vet[j] = k;
 					j--;
 				}
-				vet[j + 1] = aux;
+				if (j != -1 && vet[j] < k)
+				{
+					C1++;
+				}
+				i++;
 			}
 		}
 		public void SelectSort(int[] vet)
 		{
 			int tam = vet.Length;
-			for (int i = 0; i < tam - 1; i++)
+			int i, j, k, ik;
+			i = 0;
+			while (i < tam - 1)
 			{
-				int min = i;
-				for (int j = i + 1; j < tam; j++)
+				k = vet[i];
+				ik = i;
+				j = i + 1;
+				while (j < tam)
 				{
 					C1++;
-					if (vet[j] < vet[min])
+					if (vet[j] < k)
 					{
-						min = j;
+						k = vet[j];
+						ik = j;
 					}
+					j++;
 				}
-				if (vet[i] != vet[min])
-				{
-					T1++;
-					int aux = vet[i];
-					vet[i] = vet[min];
-					vet[min] = aux;
-				}
+				vet[ik] = vet[i];
+				vet[i] = k;
+				i++;
+				T1++;
 			}
 		}
-		
+
 	}
 }
