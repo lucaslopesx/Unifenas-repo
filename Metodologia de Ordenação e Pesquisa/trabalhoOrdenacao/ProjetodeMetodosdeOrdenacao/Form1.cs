@@ -13,6 +13,7 @@ namespace ProjetodeMetodosdeOrdenacao
     public partial class Form1 : Form
     {
 		Metodos M = new Metodos();
+        Random r = new Random();
         public Form1()
         {
             InitializeComponent();
@@ -31,6 +32,19 @@ namespace ProjetodeMetodosdeOrdenacao
             }
         }
 
+        private void cmdRandom_Click(object sender, EventArgs e)
+        {
+            dgvVetor.RowCount = 1;
+            dgvVetor.ColumnCount = (int)nudColunas.Value;
+
+            for (int i = 0; i < nudColunas.Value; i++)
+            {
+                dgvVetor.Columns[i].Width = 30;
+                dgvVetor.Rows[0].Height = 30;
+                dgvVetor.Rows[0].Cells[i].Value = r.Next(1,1000);
+            }
+        }
+
         private void cmdOrdenar_Click(object sender, EventArgs e)
         {
             int[] vet = new int[(int)nudColunas.Value];
@@ -42,20 +56,20 @@ namespace ProjetodeMetodosdeOrdenacao
             if(comboBox1.SelectedItem == "Select Sort")
             {
                 M.SelectSort(vet);
-                lblTroca.Text = M.T4.ToString();
-                lblComp.Text = M.C4.ToString();
+                lblTroca.Text = M.T1.ToString();
+                lblComp.Text = M.C1.ToString();
             }
             else if (comboBox1.SelectedItem == "Insertion Sort")
             {
                 M.InsertSort(vet);
-                lblTroca.Text = M.T3.ToString();
-                lblComp.Text = M.C3.ToString();
+                lblTroca.Text = M.T1.ToString();
+                lblComp.Text = M.C1.ToString();
             }
             else if (comboBox1.SelectedItem == "Bubble Sort")
             {
                 M.BubbleSort(vet);
-                lblTroca.Text = M.T2.ToString();
-                lblComp.Text = M.C2.ToString();
+                lblTroca.Text = M.T1.ToString();
+                lblComp.Text = M.C1.ToString();
             }
             else if (comboBox1.SelectedItem == "Quick Sort")
             {
@@ -76,13 +90,7 @@ namespace ProjetodeMetodosdeOrdenacao
                 dgvOrdenado.Rows[0].Cells[j].Value = vet[j];
             }
             M.C1 = 0;
-            M.C2 = 0;
-            M.C3 = 0;
-            M.C4 = 0;
             M.T1 = 0;
-            M.T2 = 0;
-            M.T3 = 0;
-            M.T4 = 0;
         }
 
         private void cmdLimpar_Click(object sender, EventArgs e)
@@ -96,5 +104,7 @@ namespace ProjetodeMetodosdeOrdenacao
             dgvOrdenado.Rows.Clear();
             dgvOrdenado.Refresh();
         }
+
+        
     }
 }

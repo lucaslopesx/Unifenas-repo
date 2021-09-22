@@ -8,17 +8,11 @@ namespace ProjetodeMetodosdeOrdenacao
 {
     class Metodos
     {
-		int t1, t2, t3, t4;
-		int c1, c2, c3, c4;
+		int t1;
+		int c1;
 
         public int T1 { get => t1; set => t1 = value; }
-		public int T2 { get => t2; set => t2 = value; }
-		public int T3 { get => t3; set => t3 = value; }
-        public int T4 { get => t4; set => t4 = value; }
         public int C1 { get => c1; set => c1 = value; }
-        public int C2 { get => c2; set => c2 = value; }
-        public int C3 { get => c3; set => c3 = value; }
-        public int C4 { get => c4; set => c4 = value; }
 
         public void QuickSort(int[] vet, int inicio, int fim)
 		{
@@ -67,10 +61,10 @@ namespace ProjetodeMetodosdeOrdenacao
 			{
 				for (int i = 0; i < ultimo; i++)
 				{
-					C2++;
+					C1++;
 					if (vet[i] > vet[i + 1])
 					{
-                        T2++;
+                        T1++;
 						int aux = vet[i];
 						vet[i] = vet[i + 1];
 						vet[i + 1] = aux;
@@ -88,8 +82,8 @@ namespace ProjetodeMetodosdeOrdenacao
 				j = i - 1;
 				while (j >= 0 && vet[j] > aux)
 				{
-					C3++;
-					T3++;
+					C1++;
+					T1++;
 					vet[j + 1] = vet[j];
 					j--;
 				}
@@ -104,7 +98,7 @@ namespace ProjetodeMetodosdeOrdenacao
 				int min = i;
 				for (int j = i + 1; j < tam; j++)
 				{
-					C4++;
+					C1++;
 					if (vet[j] < vet[min])
 					{
 						min = j;
@@ -112,7 +106,7 @@ namespace ProjetodeMetodosdeOrdenacao
 				}
 				if (vet[i] != vet[min])
 				{
-					T4++;
+					T1++;
 					int aux = vet[i];
 					vet[i] = vet[min];
 					vet[min] = aux;

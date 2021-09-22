@@ -40,6 +40,7 @@ namespace ProjetodeMetodosdeOrdenacao
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dgvOrdenado = new System.Windows.Forms.DataGridView();
             this.cmdLimpar = new System.Windows.Forms.Button();
+            this.cmdRandom = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudColunas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVetor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenado)).BeginInit();
@@ -162,11 +163,22 @@ namespace ProjetodeMetodosdeOrdenacao
             this.cmdLimpar.UseVisualStyleBackColor = true;
             this.cmdLimpar.Click += new System.EventHandler(this.cmdLimpar_Click);
             // 
+            // cmdRandom
+            // 
+            this.cmdRandom.Location = new System.Drawing.Point(155, 4);
+            this.cmdRandom.Name = "cmdRandom";
+            this.cmdRandom.Size = new System.Drawing.Size(125, 44);
+            this.cmdRandom.TabIndex = 11;
+            this.cmdRandom.Text = "Criar vetor com numeros aleatorios";
+            this.cmdRandom.UseVisualStyleBackColor = true;
+            this.cmdRandom.Click += new System.EventHandler(this.cmdRandom_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 239);
+            this.Controls.Add(this.cmdRandom);
             this.Controls.Add(this.cmdLimpar);
             this.Controls.Add(this.dgvOrdenado);
             this.Controls.Add(this.comboBox1);
@@ -201,6 +213,7 @@ namespace ProjetodeMetodosdeOrdenacao
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DataGridView dgvOrdenado;
         private System.Windows.Forms.Button cmdLimpar;
+        private System.Windows.Forms.Button cmdRandom;
     }
 }
 
