@@ -103,6 +103,11 @@ namespace ProjetodeMetodosdeOrdenacao
         {
             dgvOrdenado.Rows.Clear();
             dgvOrdenado.Refresh();
+            if(nudColunas.Value > 0)
+            {
+                cmdOrdenar.Enabled = true;
+            }
+            
         }
 
         

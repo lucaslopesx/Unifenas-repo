@@ -96,6 +96,7 @@ namespace ProjetodeMetodosdeOrdenacao
             // 
             // cmdOrdenar
             // 
+            this.cmdOrdenar.Enabled = false;
             this.cmdOrdenar.Location = new System.Drawing.Point(499, 13);
             this.cmdOrdenar.Name = "cmdOrdenar";
             this.cmdOrdenar.Size = new System.Drawing.Size(75, 23);
@@ -145,10 +146,12 @@ namespace ProjetodeMetodosdeOrdenacao
             this.dgvOrdenado.AllowUserToAddRows = false;
             this.dgvOrdenado.AllowUserToDeleteRows = false;
             this.dgvOrdenado.AllowUserToResizeColumns = false;
+            this.dgvOrdenado.AllowUserToResizeRows = false;
             this.dgvOrdenado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvOrdenado.ColumnHeadersVisible = false;
             this.dgvOrdenado.Location = new System.Drawing.Point(18, 165);
             this.dgvOrdenado.Name = "dgvOrdenado";
+            this.dgvOrdenado.ReadOnly = true;
             this.dgvOrdenado.RowHeadersVisible = false;
             this.dgvOrdenado.RowTemplate.Height = 25;
             this.dgvOrdenado.Size = new System.Drawing.Size(561, 30);
@@ -166,11 +169,11 @@ namespace ProjetodeMetodosdeOrdenacao
             // 
             // cmdRandom
             // 
-            this.cmdRandom.Location = new System.Drawing.Point(155, 4);
+            this.cmdRandom.Location = new System.Drawing.Point(155, 5);
             this.cmdRandom.Name = "cmdRandom";
-            this.cmdRandom.Size = new System.Drawing.Size(125, 44);
+            this.cmdRandom.Size = new System.Drawing.Size(104, 43);
             this.cmdRandom.TabIndex = 11;
-            this.cmdRandom.Text = "Criar vetor com numeros aleatorios";
+            this.cmdRandom.Text = "Gerar números aleatórios";
             this.cmdRandom.UseVisualStyleBackColor = true;
             this.cmdRandom.Click += new System.EventHandler(this.cmdRandom_Click);
             // 
