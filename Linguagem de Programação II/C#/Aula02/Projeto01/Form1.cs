@@ -98,5 +98,7 @@ namespace Projeto01
             }
             lblMostra.Text = aux;
         }
+
+        
     }
 }
