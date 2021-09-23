@@ -34,32 +34,25 @@ namespace Questao2
 
         private void cmdPares_Click(object sender, EventArgs e)
         {
-            int par = 0;
-
             for (int i = 0; i < 5; i++)
             {
                 if (vet[i] % 2 == 0)
                 {
-                    par++;
+                    lblStatus.Text += Convert.ToString(vet[i]);
                 }
             }
-            lblStatus.Text = Convert.ToString(par);
             
         }
 
         private void cmdImpares_Click(object sender, EventArgs e)
         {
-            int imp = 0;
-
             for (int i = 0; i < 5; i++)
             {
                 if (vet[i] % 2 == 1)
                 {
-                    imp++;
+                    lblStatus.Text += Convert.ToString(vet[i]);
                 }
             }
-            lblStatus.Text = Convert.ToString(imp);
-
         }
     }
 }

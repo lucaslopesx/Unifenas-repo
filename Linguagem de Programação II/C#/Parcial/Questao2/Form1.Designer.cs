@@ -88,9 +88,8 @@ namespace Questao2
             this.lblStatus.AutoSize = true;
             this.lblStatus.Location = new System.Drawing.Point(41, 178);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(35, 13);
+            this.lblStatus.Size = new System.Drawing.Size(0, 13);
             this.lblStatus.TabIndex = 5;
-            this.lblStatus.Text = "label2";
             // 
             // Form1
             // 
