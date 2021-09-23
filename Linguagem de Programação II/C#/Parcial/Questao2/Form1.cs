@@ -17,15 +17,16 @@ namespace Questao2
             InitializeComponent();
         }
         int[] vet = new int[5];
-        int i = 0;
+        int count = 0;
         private void cmdIncluir_Click(object sender, EventArgs e)
         {
             int aux;
             aux = Convert.ToInt32(txtNumero.Text);
+            txtNumero.Text = "";
 
-            vet[i] = aux;
-            i++;
-            if (i > 4)
+            vet[count] = aux;
+            count++;
+            if (count > 4)
             {
                 cmdIncluir.Enabled = false;
             }

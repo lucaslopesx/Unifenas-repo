@@ -28,30 +28,9 @@ namespace Questao1
                 V.Nome_vacina = radioButton3.Text;
             }
             V.Nome = textBox1.Text;
-            if (checkBox1.Checked)
-            {
-                V.Dose1 = true;
-            }
-            else
-            {
-                V.Dose1 = false;
-            }
-            if (checkBox2.Checked)
-            {
-                V.Dose2 = true;
-            }
-            else
-            {
-                V.Dose2 = false;
-            }
-            if (checkBox3.Checked)
-            {
-                V.Dose3 = true;
-            }
-            else
-            {
-                V.Dose3 = false;
-            }
+            V.Dose1 = checkBox1.Checked;
+            V.Dose2 = checkBox2.Checked;
+            V.Dose3 = checkBox3.Checked;
             lista.Add(V);
 
         }
@@ -62,7 +41,7 @@ namespace Questao1
 
             foreach(var item in lista)
             {
-                if (item.Nome_vacina == textBox2.Text)
+                if (item.Nome_vacina == textBox2.Text && item.Dose1 == true )
                 {
                     count++;
                 }
