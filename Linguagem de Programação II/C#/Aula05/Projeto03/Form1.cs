@@ -28,5 +28,10 @@ namespace Projeto03
             fp.Lista = fc.Lista;
             fp.ShowDialog();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
