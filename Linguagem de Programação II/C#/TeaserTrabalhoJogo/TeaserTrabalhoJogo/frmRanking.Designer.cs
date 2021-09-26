@@ -50,6 +50,7 @@ namespace TeaserTrabalhoJogo
             this.Controls.Add(this.listView1);
             this.Name = "frmRanking";
             this.Text = "frmRanking";
+            this.Load += new System.EventHandler(this.frmRanking_Load);
             this.ResumeLayout(false);
 
         }

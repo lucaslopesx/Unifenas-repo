@@ -22,17 +22,17 @@ namespace TeaserTrabalhoJogo
         {
             fc.ShowDialog();
         }
-
+        frmJogo fj = new frmJogo();
         private void mnuJogar_Click(object sender, EventArgs e)
         {
-            frmJogo fj = new frmJogo();
+            fj.ListaJogador = fc.ListaJogador;
             fj.ShowDialog();
         }
 
         private void mnuRanking_Click(object sender, EventArgs e)
         {
             frmRanking fr = new frmRanking();
-            fr.ListaJogador = fc.ListaJogador;
+            fr.ListaJogador = fj.ListaJogador;
             fr.ShowDialog();
         }
     }

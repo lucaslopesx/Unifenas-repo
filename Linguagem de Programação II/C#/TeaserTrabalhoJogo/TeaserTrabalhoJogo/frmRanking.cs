@@ -21,12 +21,18 @@ namespace TeaserTrabalhoJogo
 
         internal List<Jogador> ListaJogador { get => listaJogador; set => listaJogador = value; }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void frmRanking_Load(object sender, EventArgs e)
         {
             foreach (Jogador item in ListaJogador)
             {
-                listView1.Items.Add(item.Nome);
+                listView1.Items.Add(item.Nome, item.Pontos);
             }
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
