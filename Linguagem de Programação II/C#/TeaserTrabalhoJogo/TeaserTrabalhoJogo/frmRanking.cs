@@ -26,7 +26,7 @@ namespace TeaserTrabalhoJogo
         {
             foreach (Jogador item in ListaJogador)
             {
-                listView1.Items.Add(item.Nome, item.Pontos);
+                listView1.Items.Add(Convert.ToString(item.Pontos));
             }
         }
 

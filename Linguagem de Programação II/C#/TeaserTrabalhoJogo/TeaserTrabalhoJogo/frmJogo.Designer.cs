@@ -37,9 +37,10 @@ namespace TeaserTrabalhoJogo
             this.cmdEnviar = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.cmdFinalizar = new System.Windows.Forms.Button();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.panelJogo = new System.Windows.Forms.Panel();
+            this.cmdComecar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panelJogo.SuspendLayout();
@@ -126,29 +127,30 @@ namespace TeaserTrabalhoJogo
             this.label1.TabIndex = 4;
             this.label1.Text = "Jogador:";
             // 
-            // button2
+            // cmdFinalizar
             // 
-            this.button2.Location = new System.Drawing.Point(427, 273);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Finalizar jogo";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cmdFinalizar.Location = new System.Drawing.Point(427, 273);
+            this.cmdFinalizar.Name = "cmdFinalizar";
+            this.cmdFinalizar.Size = new System.Drawing.Size(100, 23);
+            this.cmdFinalizar.TabIndex = 5;
+            this.cmdFinalizar.Text = "Finalizar jogo";
+            this.cmdFinalizar.UseVisualStyleBackColor = true;
+            this.cmdFinalizar.Click += new System.EventHandler(this.cmdFinalizar_Click);
             // 
-            // label2
+            // lblTitle
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(81, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 21);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "placeholder";
-            this.label2.UseCompatibleTextRendering = true;
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Location = new System.Drawing.Point(81, 16);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(68, 21);
+            this.lblTitle.TabIndex = 6;
+            this.lblTitle.Text = "placeholder";
+            this.lblTitle.UseCompatibleTextRendering = true;
             // 
             // panelJogo
             // 
             this.panelJogo.Controls.Add(this.pictureBox1);
-            this.panelJogo.Controls.Add(this.label2);
+            this.panelJogo.Controls.Add(this.lblTitle);
             this.panelJogo.Controls.Add(this.panel1);
             this.panelJogo.Controls.Add(this.cmdEnviar);
             this.panelJogo.Location = new System.Drawing.Point(37, 63);
@@ -157,13 +159,24 @@ namespace TeaserTrabalhoJogo
             this.panelJogo.TabIndex = 7;
             this.panelJogo.Visible = false;
             // 
+            // cmdComecar
+            // 
+            this.cmdComecar.Location = new System.Drawing.Point(381, 19);
+            this.cmdComecar.Name = "cmdComecar";
+            this.cmdComecar.Size = new System.Drawing.Size(75, 23);
+            this.cmdComecar.TabIndex = 8;
+            this.cmdComecar.Text = "Começar";
+            this.cmdComecar.UseVisualStyleBackColor = true;
+            this.cmdComecar.Click += new System.EventHandler(this.cmdComecar_Click);
+            // 
             // frmJogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(539, 308);
+            this.Controls.Add(this.cmdComecar);
             this.Controls.Add(this.panelJogo);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.cmdFinalizar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Name = "frmJogo";
@@ -189,8 +202,9 @@ namespace TeaserTrabalhoJogo
         private System.Windows.Forms.Button cmdEnviar;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button cmdFinalizar;
+        private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel panelJogo;
+        private System.Windows.Forms.Button cmdComecar;
     }
 }
