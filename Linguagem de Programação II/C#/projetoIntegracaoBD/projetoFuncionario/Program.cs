@@ -17,7 +17,7 @@ namespace projetoFuncionario
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmFuncionario());
+            Application.Run(new frmPrincipal());
         }
     }
 }

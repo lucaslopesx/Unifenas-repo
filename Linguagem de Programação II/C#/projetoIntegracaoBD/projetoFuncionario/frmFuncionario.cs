@@ -54,5 +54,20 @@ namespace projetoFuncionario
             txtNome.Text = "";
             txtSalario.Text = "";
         }
+
+        private void cmdMaiorSalario_Click(object sender, EventArgs e)
+        {
+            double aux = list[0].Salario;
+            int j = 0;
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].Salario > aux)
+                {
+                    aux = list[i].Salario;
+                    j = i;
+                }
+                lblMaiorSalario.Text = list[j].MostraDados();
+            }
+        }
     }
 }

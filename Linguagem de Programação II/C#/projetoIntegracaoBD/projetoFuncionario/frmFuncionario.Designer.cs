@@ -43,6 +43,8 @@ namespace projetoFuncionario
             this.cmdMostrar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblDados = new System.Windows.Forms.Label();
+            this.cmdMaiorSalario = new System.Windows.Forms.Button();
+            this.lblMaiorSalario = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -153,11 +155,11 @@ namespace projetoFuncionario
             // 
             // cmdMostrar
             // 
-            this.cmdMostrar.Location = new System.Drawing.Point(28, 258);
+            this.cmdMostrar.Location = new System.Drawing.Point(399, 13);
             this.cmdMostrar.Name = "cmdMostrar";
             this.cmdMostrar.Size = new System.Drawing.Size(136, 23);
             this.cmdMostrar.TabIndex = 2;
-            this.cmdMostrar.Text = "Mostrar Funcionario";
+            this.cmdMostrar.Text = "Mostrar Funcionarios";
             this.cmdMostrar.UseVisualStyleBackColor = true;
             this.cmdMostrar.Click += new System.EventHandler(this.cmdMostrar_Click);
             // 
@@ -165,9 +167,9 @@ namespace projetoFuncionario
             // 
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.Controls.Add(this.lblDados);
-            this.panel2.Location = new System.Drawing.Point(25, 298);
+            this.panel2.Location = new System.Drawing.Point(399, 56);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(310, 119);
+            this.panel2.Size = new System.Drawing.Size(310, 382);
             this.panel2.TabIndex = 3;
             // 
             // lblDados
@@ -178,11 +180,31 @@ namespace projetoFuncionario
             this.lblDados.Size = new System.Drawing.Size(0, 15);
             this.lblDados.TabIndex = 1;
             // 
+            // cmdMaiorSalario
+            // 
+            this.cmdMaiorSalario.Location = new System.Drawing.Point(62, 254);
+            this.cmdMaiorSalario.Name = "cmdMaiorSalario";
+            this.cmdMaiorSalario.Size = new System.Drawing.Size(242, 23);
+            this.cmdMaiorSalario.TabIndex = 4;
+            this.cmdMaiorSalario.Text = "Mostrar Funcionario com maior salario";
+            this.cmdMaiorSalario.UseVisualStyleBackColor = true;
+            this.cmdMaiorSalario.Click += new System.EventHandler(this.cmdMaiorSalario_Click);
+            // 
+            // lblMaiorSalario
+            // 
+            this.lblMaiorSalario.AutoSize = true;
+            this.lblMaiorSalario.Location = new System.Drawing.Point(62, 303);
+            this.lblMaiorSalario.Name = "lblMaiorSalario";
+            this.lblMaiorSalario.Size = new System.Drawing.Size(0, 15);
+            this.lblMaiorSalario.TabIndex = 5;
+            // 
             // frmFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(737, 450);
+            this.Controls.Add(this.lblMaiorSalario);
+            this.Controls.Add(this.cmdMaiorSalario);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.cmdMostrar);
             this.Controls.Add(this.button1);
@@ -194,6 +216,7 @@ namespace projetoFuncionario
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -213,6 +236,8 @@ namespace projetoFuncionario
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblDados;
         private System.Windows.Forms.Button cmdLimpar;
+        private System.Windows.Forms.Button cmdMaiorSalario;
+        private System.Windows.Forms.Label lblMaiorSalario;
     }
 }
 

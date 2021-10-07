@@ -8,29 +8,33 @@ namespace projetoFuncionario
 {
     class Funcionario
     {
-        int idFuncionario;
+        int idFuncionario = 0;
         string nomeFuncionario;
         string dataNascimento;
         double salario;
+        int codDepartamento;
 
         public Funcionario()
         {
         }
 
+        public double Salario { get => salario; set => salario = value; }
+        public int CodDepartamento { get => codDepartamento; set => codDepartamento = value; }
+
         public void CalculaSalario()
         {
-            salario = salario * 3;
+            Salario = Salario * 3;
         }
         public void GravaDados(string nomeFuncionario, double salario, string dataNascimento)
         {
             this.nomeFuncionario = nomeFuncionario;
-            this.salario = salario;
+            this.Salario = salario;
             this.dataNascimento = dataNascimento;
         }
 
         public string MostraDados()
         {
-            string aux = $"IdFuncionario: {idFuncionario} \nNome do funcionario: {nomeFuncionario}\nSalario: {salario.ToString()} \nData de nascimento {dataNascimento}";
+            string aux = $"IdFuncionario: {idFuncionario} \nNome do funcionario: {nomeFuncionario}\nSalario: {Salario.ToString()} \nData de nascimento {dataNascimento}";
             return aux;
         }
     }
