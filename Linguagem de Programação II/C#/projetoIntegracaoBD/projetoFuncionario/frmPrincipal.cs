@@ -26,6 +26,7 @@ namespace projetoFuncionario
         private void mnuDepartamento_Click(object sender, EventArgs e)
         {
             frmDep.ShowDialog();
+            mnuFuncionario.Enabled = true;
         }
     }
 }
