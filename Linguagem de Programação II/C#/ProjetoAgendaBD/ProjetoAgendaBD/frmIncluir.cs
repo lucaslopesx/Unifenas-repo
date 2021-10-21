@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace ProjetoAgendaBD
 {
@@ -27,14 +27,10 @@ namespace ProjetoAgendaBD
 
             SqlCommand cd = new SqlCommand();
             cd.Connection = cn;
-            cd.CommandText = $"Insert into DadosAgenda (Nome, Telefone, Cidade)" +
-                $" values ('{txtNome.Text}', '{txtTelefone.Text}', '{txtCidade.Text}')";
+            cd.CommandText = $"Insert into DadosAgenda (Nome, Telefone, Cidade) values ('{txtNome.Text}', '{txtTelefone.Text}', '{txtCidade.Text}')";
 
             cd.ExecuteNonQuery();
-            foreach (var item in cd.Transaction())
-            {
-
-            }
+            
 
             MessageBox.Show("Registro incluido com sucesso!!");
             txtNome.Clear();
