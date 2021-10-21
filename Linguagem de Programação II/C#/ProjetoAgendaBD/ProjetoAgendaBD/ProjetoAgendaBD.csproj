@@ -93,6 +93,9 @@
     <EmbeddedResource Include="frmIncluir.resx">
       <DependentUpon>frmIncluir.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmNome.resx">
+      <DependentUpon>frmNome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
