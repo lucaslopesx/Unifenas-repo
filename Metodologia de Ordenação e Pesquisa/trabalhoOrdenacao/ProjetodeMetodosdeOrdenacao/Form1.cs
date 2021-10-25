@@ -19,19 +19,6 @@ namespace ProjetodeMetodosdeOrdenacao
             InitializeComponent();
         }
 
-        private void cmdVetor_Click(object sender, EventArgs e)
-        {
-            dgvVetor.RowCount = 1;
-            dgvVetor.ColumnCount = (int)nudColunas.Value;
-
-            for (int i = 0; i < nudColunas.Value; i++)
-            {
-                dgvVetor.Columns[i].Width = 30;
-                dgvVetor.Rows[0].Height = 30;
-                dgvVetor.Rows[0].Cells[i].Value = 0;
-            }
-        }
-
         private void cmdRandom_Click(object sender, EventArgs e)
         {
             dgvVetor.RowCount = 1;
@@ -106,6 +93,19 @@ namespace ProjetodeMetodosdeOrdenacao
             if (nudColunas.Value > 0)
             {
                 cmdOrdenar.Enabled = true;
+            }
+        }
+
+        private void nudColunas_ValueChanged(object sender, EventArgs e)
+        {
+            dgvVetor.RowCount = 1;
+            dgvVetor.ColumnCount = (int)nudColunas.Value;
+
+            for (int i = 0; i < nudColunas.Value; i++)
+            {
+                dgvVetor.Columns[i].Width = 30;
+                dgvVetor.Rows[0].Height = 30;
+                dgvVetor.Rows[0].Cells[i].Value = 0;
             }
         }
     }

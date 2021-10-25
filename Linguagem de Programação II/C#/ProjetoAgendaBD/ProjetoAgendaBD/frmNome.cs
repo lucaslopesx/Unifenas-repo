@@ -21,7 +21,7 @@ namespace ProjetoAgendaBD
         private void cmdPesquisar_Click(object sender, EventArgs e)
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "SERVER = F038847\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=123;";
+            cn.ConnectionString = "SERVER = DESKTOP-GM7EVH8\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=1234;";
             cn.Open();
 
             string sql = $"Select * from DadosAgenda where Nome LIKE '{txtNome.Text}%'";
@@ -39,7 +39,7 @@ namespace ProjetoAgendaBD
         private void txtNome_TextChanged(object sender, EventArgs e)
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "SERVER = F038847\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=123;";
+            cn.ConnectionString = "SERVER = DESKTOP-GM7EVH8\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=1234;";
             cn.Open();
 
             string sql = $"Select * from DadosAgenda where Nome LIKE '{txtNome.Text}%'";

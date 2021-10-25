@@ -22,7 +22,7 @@ namespace ProjetoAgendaBD
         {
             
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "SERVER = F038847\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=123;";
+            cn.ConnectionString = "SERVER = DESKTOP-GM7EVH8\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=1234;";
             cn.Open();
 
             SqlCommand cd = new SqlCommand();

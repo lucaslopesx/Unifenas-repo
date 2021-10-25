@@ -33,7 +33,6 @@ namespace ProjetodeMetodosdeOrdenacao
             this.label2 = new System.Windows.Forms.Label();
             this.lblTroca = new System.Windows.Forms.Label();
             this.lblComp = new System.Windows.Forms.Label();
-            this.cmdVetor = new System.Windows.Forms.Button();
             this.cmdOrdenar = new System.Windows.Forms.Button();
             this.nudColunas = new System.Windows.Forms.NumericUpDown();
             this.dgvVetor = new System.Windows.Forms.DataGridView();
@@ -84,16 +83,6 @@ namespace ProjetodeMetodosdeOrdenacao
             this.lblComp.Size = new System.Drawing.Size(0, 25);
             this.lblComp.TabIndex = 3;
             // 
-            // cmdVetor
-            // 
-            this.cmdVetor.Location = new System.Drawing.Point(74, 13);
-            this.cmdVetor.Name = "cmdVetor";
-            this.cmdVetor.Size = new System.Drawing.Size(75, 23);
-            this.cmdVetor.TabIndex = 4;
-            this.cmdVetor.Text = "Criar Vetor";
-            this.cmdVetor.UseVisualStyleBackColor = true;
-            this.cmdVetor.Click += new System.EventHandler(this.cmdVetor_Click);
-            // 
             // cmdOrdenar
             // 
             this.cmdOrdenar.Enabled = false;
@@ -111,7 +100,7 @@ namespace ProjetodeMetodosdeOrdenacao
             this.nudColunas.Name = "nudColunas";
             this.nudColunas.Size = new System.Drawing.Size(55, 23);
             this.nudColunas.TabIndex = 6;
-            this.nudColunas.ValueChanged += new System.EventHandler(this.cmdVetor_Click);
+            this.nudColunas.ValueChanged += new System.EventHandler(this.nudColunas_ValueChanged);
             // 
             // dgvVetor
             // 
@@ -169,7 +158,7 @@ namespace ProjetodeMetodosdeOrdenacao
             // 
             // cmdRandom
             // 
-            this.cmdRandom.Location = new System.Drawing.Point(155, 5);
+            this.cmdRandom.Location = new System.Drawing.Point(80, 5);
             this.cmdRandom.Name = "cmdRandom";
             this.cmdRandom.Size = new System.Drawing.Size(104, 43);
             this.cmdRandom.TabIndex = 11;
@@ -189,7 +178,6 @@ namespace ProjetodeMetodosdeOrdenacao
             this.Controls.Add(this.dgvVetor);
             this.Controls.Add(this.nudColunas);
             this.Controls.Add(this.cmdOrdenar);
-            this.Controls.Add(this.cmdVetor);
             this.Controls.Add(this.lblComp);
             this.Controls.Add(this.lblTroca);
             this.Controls.Add(this.label2);
@@ -210,7 +198,6 @@ namespace ProjetodeMetodosdeOrdenacao
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblTroca;
         private System.Windows.Forms.Label lblComp;
-        private System.Windows.Forms.Button cmdVetor;
         private System.Windows.Forms.Button cmdOrdenar;
         private System.Windows.Forms.NumericUpDown nudColunas;
         private System.Windows.Forms.DataGridView dgvVetor;

@@ -20,7 +20,7 @@ namespace ProjetoAgendaBD
         private void frmAlterar_Load(object sender, EventArgs e)
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "SERVER = F038847\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=123;";
+            cn.ConnectionString = "SERVER = DESKTOP-GM7EVH8\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=1234;";
             cn.Open();
 
             SqlDataAdapter da = new SqlDataAdapter("Select * from DadosAgenda", cn);
@@ -39,7 +39,7 @@ namespace ProjetoAgendaBD
         {
             int codigoAgenda = int.Parse(cbNome.SelectedValue.ToString());
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "SERVER = F038847\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=123;";
+            cn.ConnectionString = "SERVER = DESKTOP-GM7EVH8\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=1234;";
             cn.Open();
 
             SqlCommand cd = new SqlCommand();
@@ -59,7 +59,7 @@ namespace ProjetoAgendaBD
         {
             int codigoAgenda = int.Parse(cbNome.SelectedValue.ToString());
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "SERVER = F038847\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=123;";
+            cn.ConnectionString = "SERVER = DESKTOP-GM7EVH8\\SQLEXPRESS; Database=Agenda; UID=sa; PWD=1234;";
             SqlCommand cd = new SqlCommand();
             cd.CommandText = $"Select * from DadosAgenda where Codigo = {codigoAgenda}";
             cd.Connection = cn;
