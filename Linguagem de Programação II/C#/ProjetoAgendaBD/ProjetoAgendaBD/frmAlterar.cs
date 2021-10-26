@@ -17,6 +17,7 @@ namespace ProjetoAgendaBD
         {
             InitializeComponent();
         }
+
         private void frmAlterar_Load(object sender, EventArgs e)
         {
             SqlConnection cn = new SqlConnection();
