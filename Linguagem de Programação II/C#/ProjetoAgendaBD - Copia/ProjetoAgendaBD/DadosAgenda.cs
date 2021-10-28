@@ -41,16 +41,31 @@ namespace ProjetoAgendaBD
                 Telefone = connection.dr["Telefone"].ToString();
                 Cidade= connection.dr["Cidade"].ToString();
             }
-            connection.Desconnect();
+            connection.Disconnect();
         }
         public DataSet List()
         {
             string sql = "Select * from DadosAgenda";
             connection.ListInfo(sql);
 
-            connection.Desconnect();
+            connection.Disconnect();
             return connection.ds;
         }
-        
+        public DataSet ListByName()
+        {
+            string sql = $"Select * from DadosAgenda where Nome LIKE '{Nome}%'";
+            connection.ListInfo(sql);
+            connection.Disconnect();
+            return connection.ds;
+
+        }
+        public DataSet ListByCity()
+        {
+            string sql = $"Select * from DadosAgenda where Cidade LIKE '{Cidade}%'";
+            connection.ListInfo(sql);
+            connection.Disconnect();
+            return connection.ds;
+        }
+
     }
 }

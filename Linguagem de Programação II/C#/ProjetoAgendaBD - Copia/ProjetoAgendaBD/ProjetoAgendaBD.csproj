@@ -89,6 +89,9 @@
     <EmbeddedResource Include="frmAlterar.resx">
       <DependentUpon>frmAlterar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCidade.resx">
+      <DependentUpon>frmCidade.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmExcluir.resx">
       <DependentUpon>frmExcluir.cs</DependentUpon>
     </EmbeddedResource>

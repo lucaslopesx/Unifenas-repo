@@ -47,7 +47,7 @@ namespace ProjetoAgendaBD
             // 
             // cmdPesquisar
             // 
-            this.cmdPesquisar.Location = new System.Drawing.Point(257, 12);
+            this.cmdPesquisar.Location = new System.Drawing.Point(301, 13);
             this.cmdPesquisar.Name = "cmdPesquisar";
             this.cmdPesquisar.Size = new System.Drawing.Size(75, 23);
             this.cmdPesquisar.TabIndex = 1;
@@ -59,7 +59,7 @@ namespace ProjetoAgendaBD
             // 
             this.txtNome.Location = new System.Drawing.Point(58, 14);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(181, 20);
+            this.txtNome.Size = new System.Drawing.Size(237, 20);
             this.txtNome.TabIndex = 2;
             this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
@@ -68,14 +68,14 @@ namespace ProjetoAgendaBD
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(23, 55);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(300, 383);
+            this.dataGridView1.Size = new System.Drawing.Size(353, 383);
             this.dataGridView1.TabIndex = 3;
             // 
             // frmNome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 450);
+            this.ClientSize = new System.Drawing.Size(400, 450);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.cmdPesquisar);

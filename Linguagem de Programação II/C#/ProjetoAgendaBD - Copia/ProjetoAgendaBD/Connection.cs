@@ -22,7 +22,7 @@ namespace ProjetoAgendaBD
             cn.Open();
         }
 
-        public void Desconnect()
+        public void Disconnect()
         {
             cn.Close();
         }
@@ -33,7 +33,7 @@ namespace ProjetoAgendaBD
             cd.Connection = cn;
             cd.CommandText = sql;
             cd.ExecuteNonQuery();
-            Desconnect();
+            Disconnect();
         }
 
         public void ListInfo(string sql)
