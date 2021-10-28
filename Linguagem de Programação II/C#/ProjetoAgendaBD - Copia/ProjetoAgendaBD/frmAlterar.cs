@@ -29,7 +29,6 @@ namespace ProjetoAgendaBD
 
         private void cmdAlterar_Click(object sender, EventArgs e)
         {
-            int codigoAgenda = int.Parse(cbNome.SelectedValue.ToString());
             data.Telefone = txtTelefone.Text;
             data.Cidade = txtCidade.Text;
             data.Update();
