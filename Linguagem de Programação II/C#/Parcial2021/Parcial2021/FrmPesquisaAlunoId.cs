@@ -21,7 +21,7 @@ namespace Parcial2021
         private void cmdPesquisa_Click(object sender, EventArgs e)
         {
             a.IdAluno = int.Parse(textBox1.Text);
-            //a.PesquisarAlunoporId();
+            a.PesquisarAlunoporId();
             label2.Text = a.Aluno;
 
         }
