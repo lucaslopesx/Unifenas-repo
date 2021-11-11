@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,6 +33,30 @@ namespace ProjetoAgendaBD
             txtNome.Clear();
             txtCidade.Clear();
             txtTelefone.Clear();
+        }
+
+        private void cmdImagem_Click(object sender, EventArgs e)
+        {
+            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
+                ConverterFoto();
+            }
+        }
+
+        private void ConverterFoto()
+        {
+            if (pictureBox1.Image != null)
+            {
+                MemoryStream ms = new MemoryStream();
+                pictureBox1.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+
+                byte[] foto_array = new byte[ms.Length];
+                ms.Position = 0;
+
+                ms.Read(foto_array, 0, foto_array.Length);
+                data.Foto = foto_array;
+            }
         }
     }
 }

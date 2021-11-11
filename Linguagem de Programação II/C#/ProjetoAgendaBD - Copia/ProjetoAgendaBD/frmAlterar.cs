@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,9 +43,22 @@ namespace ProjetoAgendaBD
         {
             data.Codigo = int.Parse(cbNome.SelectedValue.ToString());
             data.Consult();
+            data.ConsultData();
 
             txtTelefone.Text = data.Telefone;
             txtCidade.Text = data.Cidade;
+
+            if(!(data.Foto is null))
+            {
+                MemoryStream ms = new MemoryStream();
+                ms.Write(data.Foto, 0, data.Foto.Length);
+
+                pictureBox1.Image = Image.FromStream(ms);
+            }
+            else
+            {
+                pictureBox1.Image = Properties.Resources.download;
+            }
         }
 
         private void txtCidade_TextChanged(object sender, EventArgs e)
@@ -68,6 +82,11 @@ namespace ProjetoAgendaBD
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdImagem_Click(object sender, EventArgs e)
         {
 
         }

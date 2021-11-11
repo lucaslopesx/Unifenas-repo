@@ -36,6 +36,10 @@ namespace ProjetoAgendaBD
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cmdImagem = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -52,7 +56,7 @@ namespace ProjetoAgendaBD
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(4, 44);
+            this.label2.Location = new System.Drawing.Point(4, 59);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 20);
             this.label2.TabIndex = 1;
@@ -62,7 +66,7 @@ namespace ProjetoAgendaBD
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(16, 76);
+            this.label3.Location = new System.Drawing.Point(16, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 20);
             this.label3.TabIndex = 2;
@@ -70,9 +74,10 @@ namespace ProjetoAgendaBD
             // 
             // cmdIncluir
             // 
-            this.cmdIncluir.Location = new System.Drawing.Point(127, 134);
+            this.cmdIncluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdIncluir.Location = new System.Drawing.Point(124, 185);
             this.cmdIncluir.Name = "cmdIncluir";
-            this.cmdIncluir.Size = new System.Drawing.Size(75, 23);
+            this.cmdIncluir.Size = new System.Drawing.Size(331, 39);
             this.cmdIncluir.TabIndex = 3;
             this.cmdIncluir.Text = "Incluir";
             this.cmdIncluir.UseVisualStyleBackColor = true;
@@ -89,7 +94,7 @@ namespace ProjetoAgendaBD
             // txtCidade
             // 
             this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCidade.Location = new System.Drawing.Point(95, 76);
+            this.txtCidade.Location = new System.Drawing.Point(95, 111);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(225, 26);
             this.txtCidade.TabIndex = 5;
@@ -97,16 +102,41 @@ namespace ProjetoAgendaBD
             // txtTelefone
             // 
             this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(95, 44);
+            this.txtTelefone.Location = new System.Drawing.Point(95, 59);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(225, 26);
             this.txtTelefone.TabIndex = 6;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(392, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(165, 128);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // cmdImagem
+            // 
+            this.cmdImagem.Location = new System.Drawing.Point(416, 143);
+            this.cmdImagem.Name = "cmdImagem";
+            this.cmdImagem.Size = new System.Drawing.Size(117, 23);
+            this.cmdImagem.TabIndex = 8;
+            this.cmdImagem.Text = "Carregar Imagem";
+            this.cmdImagem.UseVisualStyleBackColor = true;
+            this.cmdImagem.Click += new System.EventHandler(this.cmdImagem_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // frmIncluir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 182);
+            this.ClientSize = new System.Drawing.Size(582, 236);
+            this.Controls.Add(this.cmdImagem);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtCidade);
             this.Controls.Add(this.txtNome);
@@ -116,6 +146,7 @@ namespace ProjetoAgendaBD
             this.Controls.Add(this.label1);
             this.Name = "frmIncluir";
             this.Text = "frmIncluir";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,5 +161,8 @@ namespace ProjetoAgendaBD
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button cmdImagem;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

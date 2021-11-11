@@ -36,6 +36,9 @@ namespace ProjetoAgendaBD
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.cbNome = new System.Windows.Forms.ComboBox();
             this.cmdAlterar = new System.Windows.Forms.Button();
+            this.cmdImagem = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -53,7 +56,7 @@ namespace ProjetoAgendaBD
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 82);
+            this.label2.Location = new System.Drawing.Point(0, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 1;
@@ -74,7 +77,7 @@ namespace ProjetoAgendaBD
             // txtTelefone
             // 
             this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefone.Location = new System.Drawing.Point(81, 82);
+            this.txtTelefone.Location = new System.Drawing.Point(81, 65);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(225, 22);
             this.txtTelefone.TabIndex = 4;
@@ -102,7 +105,7 @@ namespace ProjetoAgendaBD
             // cmdAlterar
             // 
             this.cmdAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAlterar.Location = new System.Drawing.Point(102, 165);
+            this.cmdAlterar.Location = new System.Drawing.Point(241, 166);
             this.cmdAlterar.Name = "cmdAlterar";
             this.cmdAlterar.Size = new System.Drawing.Size(117, 34);
             this.cmdAlterar.TabIndex = 7;
@@ -110,11 +113,33 @@ namespace ProjetoAgendaBD
             this.cmdAlterar.UseVisualStyleBackColor = true;
             this.cmdAlterar.Click += new System.EventHandler(this.cmdAlterar_Click);
             // 
+            // cmdImagem
+            // 
+            this.cmdImagem.Location = new System.Drawing.Point(389, 140);
+            this.cmdImagem.Name = "cmdImagem";
+            this.cmdImagem.Size = new System.Drawing.Size(117, 23);
+            this.cmdImagem.TabIndex = 10;
+            this.cmdImagem.Text = "Carregar Imagem";
+            this.cmdImagem.UseVisualStyleBackColor = true;
+            this.cmdImagem.Click += new System.EventHandler(this.cmdImagem_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ProjetoAgendaBD.Properties.Resources.download;
+            this.pictureBox1.Location = new System.Drawing.Point(368, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(165, 128);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmAlterar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 212);
+            this.ClientSize = new System.Drawing.Size(561, 212);
+            this.Controls.Add(this.cmdImagem);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.cmdAlterar);
             this.Controls.Add(this.cbNome);
             this.Controls.Add(this.txtCidade);
@@ -125,6 +150,7 @@ namespace ProjetoAgendaBD
             this.Name = "frmAlterar";
             this.Text = "frmAlterar";
             this.Load += new System.EventHandler(this.frmAlterar_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,5 +165,7 @@ namespace ProjetoAgendaBD
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.ComboBox cbNome;
         private System.Windows.Forms.Button cmdAlterar;
+        private System.Windows.Forms.Button cmdImagem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
