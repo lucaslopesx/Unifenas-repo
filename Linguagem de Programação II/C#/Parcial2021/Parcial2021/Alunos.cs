@@ -17,9 +17,8 @@ namespace Parcial2021
             SqlConnection cn = new SqlConnection();
             cn.ConnectionString = "Server = F038847\\SQLEXPRESS;Database = CURSO;UID=sa;PWD=123";
             cn.Open();
-            SqlCommand cd = new SqlCommand();
-            cd.CommandText = $"Select Aluno from TabelaAluno where idAluno = {IdAluno}";
-            cd.Connection = cn;
+            string sql = $"Select Aluno from TabelaAluno where idAluno = {IdAluno}";
+            SqlCommand cd = new SqlCommand(sql, cn);
             SqlDataReader dr = cd.ExecuteReader();
             if (dr.Read())
             {
