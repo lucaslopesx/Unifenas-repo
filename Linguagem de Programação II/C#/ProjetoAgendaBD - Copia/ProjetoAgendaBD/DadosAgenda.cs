@@ -11,6 +11,7 @@ namespace ProjetoAgendaBD
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
+        public byte[] Foto { get; set; }
         public string Telefone { get; set; }
         public string Cidade { get; set; }
 
@@ -18,12 +19,12 @@ namespace ProjetoAgendaBD
 
         public void Insert()
         {
-            string sql = $"Insert into DadosAgenda (Nome, Telefone, Cidade) values ('{Nome}', '{Telefone}', '{Cidade}')";
-            connection.Execute(sql);
+            string sql = $"Insert into DadosAgenda (Nome, Telefone, Cidade, Foto) values ('{Nome}', '{Telefone}', '{Cidade}', @image)";
+            connection.Execute(sql, Foto);
         }
         public void Update()
         {
-           string sql = $"update DadosAgenda set Telefone = '{Telefone}', Cidade = '{Cidade}' where Codigo = {Codigo}";
+           string sql = $"update DadosAgenda set Telefone = '{Telefone}', Cidade = '{Cidade}', Foto = @image where Codigo = {Codigo}";
             connection.Execute(sql);
         }
         public void Delete()
@@ -34,15 +35,30 @@ namespace ProjetoAgendaBD
         public void Consult()
         {
             string sql = $"Select * from DadosAgenda where Codigo = {Codigo}";
-            //string sql = $"Select * from DadosAgenda where Nome LIKE '{Nome}%'";
             connection.Consult(sql);
             if (connection.dr.Read())
             {
                 Telefone = connection.dr["Telefone"].ToString();
-                Cidade= connection.dr["Cidade"].ToString();
+                Cidade = connection.dr["Cidade"].ToString();
             }
             connection.Disconnect();
         }
+
+        public void ConsultData()
+        {
+            string sql = $"Select * from DadosAgenda where Codigo = {Codigo}";
+            connection.Consult(sql);
+            if (connection.dr.Read())
+            {
+                Foto = (byte[])connection.dr["Foto"];
+            }
+            else
+            {
+                Foto = null;
+            }
+            connection.Disconnect();
+        }
+
         public DataSet List()
         {
             string sql = "Select * from DadosAgenda";

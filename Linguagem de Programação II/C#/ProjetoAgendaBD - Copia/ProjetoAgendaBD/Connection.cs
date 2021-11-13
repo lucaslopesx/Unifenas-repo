@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -32,6 +33,20 @@ namespace ProjetoAgendaBD
             Connect();
             cd.Connection = cn;
             cd.CommandText = sql;
+            cd.ExecuteNonQuery();
+            Disconnect();
+        }
+        public void Execute(string sql, Byte[] Foto)
+        {
+            Connect();
+            cd.Connection = cn;
+            cd.CommandText = sql;
+            if(Foto != null)
+            {
+                cd.Parameters.Clear();
+                cd.Parameters.Add("@image", SqlDbType.Image);
+                cd.Parameters["@image"].Value = Foto;
+            }
             cd.ExecuteNonQuery();
             Disconnect();
         }
