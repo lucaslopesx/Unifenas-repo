@@ -50,5 +50,11 @@ namespace ProjetoAgendaBD
             frmCidade fc = new frmCidade();
             fc.ShowDialog();
         }
+
+        private void imprimirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmImprimir fi = new frmImprimir();
+            fi.ShowDialog();
+        }
     }
 }

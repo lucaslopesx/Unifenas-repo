@@ -66,6 +66,12 @@
     <Compile Include="frmExcluir.Designer.cs">
       <DependentUpon>frmExcluir.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmImprimir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimir.Designer.cs">
+      <DependentUpon>frmImprimir.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmIncluir.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmExcluir.resx">
       <DependentUpon>frmExcluir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimir.resx">
+      <DependentUpon>frmImprimir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmIncluir.resx">
       <DependentUpon>frmIncluir.cs</DependentUpon>

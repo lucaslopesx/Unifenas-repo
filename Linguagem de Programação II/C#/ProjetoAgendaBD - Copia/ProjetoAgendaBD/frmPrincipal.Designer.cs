@@ -38,6 +38,7 @@ namespace ProjetoAgendaBD
             this.porNomeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porCidadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.imprimirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +47,8 @@ namespace ProjetoAgendaBD
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroToolStripMenuItem,
             this.pesquisaToolStripMenuItem,
-            this.sairToolStripMenuItem});
+            this.sairToolStripMenuItem,
+            this.imprimirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(711, 24);
@@ -66,21 +68,21 @@ namespace ProjetoAgendaBD
             // incluirToolStripMenuItem
             // 
             this.incluirToolStripMenuItem.Name = "incluirToolStripMenuItem";
-            this.incluirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.incluirToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.incluirToolStripMenuItem.Text = "Incluir";
             this.incluirToolStripMenuItem.Click += new System.EventHandler(this.incluirToolStripMenuItem_Click_1);
             // 
             // alterarToolStripMenuItem
             // 
             this.alterarToolStripMenuItem.Name = "alterarToolStripMenuItem";
-            this.alterarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alterarToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.alterarToolStripMenuItem.Text = "Alterar";
             this.alterarToolStripMenuItem.Click += new System.EventHandler(this.alterarToolStripMenuItem_Click_1);
             // 
             // excluirToolStripMenuItem
             // 
             this.excluirToolStripMenuItem.Name = "excluirToolStripMenuItem";
-            this.excluirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.excluirToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.excluirToolStripMenuItem.Text = "Excluir";
             this.excluirToolStripMenuItem.Click += new System.EventHandler(this.excluirToolStripMenuItem_Click_1);
             // 
@@ -96,14 +98,14 @@ namespace ProjetoAgendaBD
             // porNomeToolStripMenuItem
             // 
             this.porNomeToolStripMenuItem.Name = "porNomeToolStripMenuItem";
-            this.porNomeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.porNomeToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.porNomeToolStripMenuItem.Text = "Por Nome";
             this.porNomeToolStripMenuItem.Click += new System.EventHandler(this.porNomeToolStripMenuItem_Click_1);
             // 
             // porCidadeToolStripMenuItem
             // 
             this.porCidadeToolStripMenuItem.Name = "porCidadeToolStripMenuItem";
-            this.porCidadeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.porCidadeToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.porCidadeToolStripMenuItem.Text = "Por Cidade";
             this.porCidadeToolStripMenuItem.Click += new System.EventHandler(this.porCidadeToolStripMenuItem_Click_1);
             // 
@@ -113,6 +115,13 @@ namespace ProjetoAgendaBD
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // imprimirToolStripMenuItem
+            // 
+            this.imprimirToolStripMenuItem.Name = "imprimirToolStripMenuItem";
+            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.imprimirToolStripMenuItem.Text = "Imprimir";
+            this.imprimirToolStripMenuItem.Click += new System.EventHandler(this.imprimirToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -141,6 +150,7 @@ namespace ProjetoAgendaBD
         private System.Windows.Forms.ToolStripMenuItem porNomeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem porCidadeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem imprimirToolStripMenuItem;
     }
 }
 
