@@ -1,0 +1,3 @@
+--Uma view que apresente os nomes das áreas de especialização e seus respectivos números de
+--médicos; Em seguida, selecione nessa view o nome da especialidade que possui o maior número
+--de médicos; create view nomeEspQtdMedas	select e.nome, COUNT(m.codEspecializacao) as 'quantidade'	from Especializacao e inner join Medico m on e.codEspecializacao = m.codEspecializacao	GROUP BY e.nome	select x.nome 	from nomeEspQtdMed x	where x.quantidade = (select MAX(x.quantidade)						  from nomeEspQtdMed x)

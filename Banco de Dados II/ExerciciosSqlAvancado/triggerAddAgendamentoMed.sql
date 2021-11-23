@@ -1,0 +1,4 @@
+--Altere a tabela Medico e crie um campo chamado quantAgendamentos e o inicie com o valor 0.
+--Em seguida, crie uma trigger que, toda vez que um agendamento for criado ou excluído, esse
+--campo seja incrementado ou decrementado em 1 unidade. OBS.: Não é necessário tratar
+--atualizações. create trigger addAgendamentoMedon Agendaafter insert, deleteasbegin	declare @codMedIns int	declare @codMedDel int	set @codMedIns = (select codMedico from inserted)	set @codMedDel = (select codMedico from deleted)	update Medico	set quantAgendamentos += 1 	where codMedico = @codMedIns		update Medico	set quantAgendamentos -= 1 	where codMedico = @codMedInsend
