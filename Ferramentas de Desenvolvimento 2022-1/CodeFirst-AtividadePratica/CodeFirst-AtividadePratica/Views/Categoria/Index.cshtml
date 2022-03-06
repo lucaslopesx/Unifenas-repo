@@ -1,0 +1,49 @@
+﻿@model IEnumerable<CodeFirst_AtividadePratica.Models.Categoria>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoriaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoriaName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoriaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoriaName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.CategoriaId */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.CategoriaId */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.CategoriaId */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>
